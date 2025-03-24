@@ -17,7 +17,7 @@ def registrar_notas():
 
             if notas:
                 media = sum(notas) / len(notas)
-                print(f"\nMédia da turma: {media:2f}")
+                print(f"\nMédia da turma: {media:.2f}")
                 print(f"Total de notas válidas registradas: {len(notas)}")
             
             else:
